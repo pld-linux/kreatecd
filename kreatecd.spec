@@ -10,7 +10,7 @@ Patch:		%{name}-%{version}.patch
 URL:		http://members.tripod.com/~lonely_dreamer/
 BuildRequires:	qt-devel
 BuildRequires:	kdelibs-devel
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 KreateCD is a frontend for CD writers using the K Desktop Environment, cdrecord
