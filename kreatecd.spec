@@ -2,7 +2,7 @@ Summary:	KreateCD - Frontend for CD writers using the K Desktop Environment
 Name:		kreatecd
 Version:	0.2.2
 Release:	1
-Group:		X11/KDE/Apps
+Group:		X11/KDE/Applications
 Copyright:	GPL
 Vendor:		Alexander Feigl <Alexander.Feigl@gmx.de>
 Source:		%{name}-%{version}.tar.gz
