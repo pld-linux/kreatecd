@@ -11,7 +11,10 @@ Group(pl):	X11/Aplikacje
 Source0:	ftp://download.sourceforge.net/pub/sourceforge/kreatecd/%{name}-%{version}.tar.bz2
 URL:		http://www.kreatecd.de/
 BuildRequires:	cdrecord
+BuildRequires:	mkisofs
 BuildRequires:	kdelibs-devel >= 2.1
+Requires:	cdrecord
+Requires:	mkisofs
 Requires:	kdelibs >= 2.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
