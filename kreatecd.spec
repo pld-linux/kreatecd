@@ -10,14 +10,14 @@ Source0:	ftp://download.sourceforge.net/pub/sourceforge/kreatecd/%{name}-%{versi
 URL:		http://www.kreatecd.de/
 BuildRequires:	cdda2wav
 BuildRequires:	cdparanoia-III
-BuildRequires:	cdrecord
+BuildRequires:	cdrtools
 BuildRequires:	mkisofs
 BuildRequires:	mpg123
 BuildRequires:	kdelibs-devel >= 2.1
 BuildRequires:	libvorbis-devel >= 1:1.0
 Requires:	cdda2wav
 Requires:	cdparanoia-III
-Requires:	cdrecord
+Requires:	cdrtools
 Requires:	mkisofs
 Requires:	mpg123
 Requires:	kdelibs >= 2.1
