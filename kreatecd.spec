@@ -7,7 +7,10 @@ License:	GPL
 Vendor:		Alexander Feigl <Alexander.Feigl@gmx.de>
 Group:		X11/Applications
 Group(de):	X11/Applikationen
+Group(es):	X11/Aplicaciones
 Group(pl):	X11/Aplikacje
+Group(pt_BR):	X11/Aplicações
+Group(pt):	X11/Aplicações
 Source0:	ftp://download.sourceforge.net/pub/sourceforge/kreatecd/%{name}-%{version}.tar.bz2
 URL:		http://www.kreatecd.de/
 BuildRequires:	cdda2wav
