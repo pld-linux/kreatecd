@@ -8,17 +8,17 @@ Vendor:		Alexander Feigl <Alexander.Feigl@gmx.de>
 Group:		X11/Applications
 Source0:	ftp://download.sourceforge.net/pub/sourceforge/kreatecd/%{name}-%{version}.tar.bz2
 URL:		http://www.kreatecd.de/
-BuildRequires:	cdda2wav
+BuildRequires:	cdrtools-cdda2wav
 BuildRequires:	cdparanoia-III
 BuildRequires:	cdrtools
-BuildRequires:	mkisofs
+BuildRequires:	cdrtools-mkisofs
 BuildRequires:	mpg123
 BuildRequires:	kdelibs-devel >= 2.1
 BuildRequires:	libvorbis-devel >= 1:1.0
-Requires:	cdda2wav
+Requires:	cdrtools-cdda2wav
 Requires:	cdparanoia-III
 Requires:	cdrtools
-Requires:	mkisofs
+Requires:	cdrtools-mkisofs
 Requires:	mpg123
 Requires:	kdelibs >= 2.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
