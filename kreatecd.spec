@@ -8,8 +8,8 @@ Vendor:		Alexander Feigl <Alexander.Feigl@gmx.de>
 Source:		%{name}-%{version}.tar.gz
 Patch:		%{name}-%{version}.patch
 URL:		http://members.tripod.com/~lonely_dreamer/
-BuildPrereq:	qt-devel
-BuildPrereq:	kdelibs-devel
+BuildRequires:	qt-devel
+BuildRequires:	kdelibs-devel
 BuildRoot:	/tmp/%{name}-%{version}-root
 
 %description
