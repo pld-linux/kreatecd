@@ -7,6 +7,7 @@ License:	GPL v2
 Vendor:		Alexander Feigl <Alexander.Feigl@gmx.de>
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/kreatecd/%{name}-%{version}.tar.bz2
+# Source0-md5:	e79913878fc2818ee96ff77be0e7e138
 URL:		http://www.kreatecd.de/
 BuildRequires:	cdrtools-cdda2wav
 BuildRequires:	cdparanoia-III
