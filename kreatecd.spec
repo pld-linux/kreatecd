@@ -10,11 +10,17 @@ Group(de):	X11/Applikationen
 Group(pl):	X11/Aplikacje
 Source0:	ftp://download.sourceforge.net/pub/sourceforge/kreatecd/%{name}-%{version}.tar.bz2
 URL:		http://www.kreatecd.de/
+BuildRequires:	cdda2wav
+BuildRequires:	cdparanoia-III
 BuildRequires:	cdrecord
 BuildRequires:	mkisofs
+BuildRequires:	mpg123
 BuildRequires:	kdelibs-devel >= 2.1
+Requires:	cdda2wav
+Requires:	cdparanoia-III
 Requires:	cdrecord
 Requires:	mkisofs
+Requires:	mpg123
 Requires:	kdelibs >= 2.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
