@@ -14,7 +14,7 @@ BuildRequires:	cdrecord
 BuildRequires:	mkisofs
 BuildRequires:	mpg123
 BuildRequires:	kdelibs-devel >= 2.1
-BuildRequires:	libvorbis-devel
+BuildRequires:	libvorbis-devel >= 1:1.0
 Requires:	cdda2wav
 Requires:	cdparanoia-III
 Requires:	cdrecord
