@@ -2,7 +2,7 @@ Summary:	KreateCD - Frontend for CD writers using the K Desktop Environment
 Summary(pl):	KreateCD - Frontend do nagrywarek CD do KDE
 Name:		kreatecd
 Version:	1.1.0
-Release:	1
+Release:	2
 License:	GPL
 Vendor:		Alexander Feigl <Alexander.Feigl@gmx.de>
 Group:		X11/Applications
@@ -14,6 +14,7 @@ BuildRequires:	cdrecord
 BuildRequires:	mkisofs
 BuildRequires:	mpg123
 BuildRequires:	kdelibs-devel >= 2.1
+BuildRequires:	libvorbis-devel
 Requires:	cdda2wav
 Requires:	cdparanoia-III
 Requires:	cdrecord
