@@ -48,7 +48,7 @@ CXXFLAGS="%{rpmcflags} %{!?debug:-fno-rtti -fno-exceptions}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT/%{_applnkdir}/Utilities/CD-RW
+install -d $RPM_BUILD_ROOT%{_applnkdir}/Utilities/CD-RW
 
 %{__make} install \
 	transform="" \
