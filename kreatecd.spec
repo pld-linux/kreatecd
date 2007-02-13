@@ -1,5 +1,5 @@
 Summary:	KreateCD - Frontend for CD writers using the K Desktop Environment
-Summary(pl.UTF-8):   KreateCD - Frontend do nagrywarek CD do KDE
+Summary(pl.UTF-8):	KreateCD - Frontend do nagrywarek CD do KDE
 Name:		kreatecd
 Version:	1.1.0
 Release:	3
